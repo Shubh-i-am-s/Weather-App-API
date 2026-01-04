@@ -11,7 +11,7 @@ const msgError = document.getElementById("msgError");
 
 ciytsearch.addEventListener("click", async (event) => {
     event.preventDefault();
-    const apiKey = "10dd25667165ae823fe9cd2b3630c1e3";
+    const apiKey = "#";  //add your Api
     let city = inputCity.value.trim();
     if (city === "") {
     alert("Please enter a city name");
@@ -55,4 +55,5 @@ ciytsearch.addEventListener("click", async (event) => {
     }
     inputCity.value = "";
 });
+
 
