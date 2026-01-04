@@ -1,0 +1,51 @@
+body{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   min-height: 100vh;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+    width: 330px;
+}
+
+#inputCity{
+    font-size: 1.3rem;
+    font-weight: bold;
+    min-width: 60px;
+    padding: 5px;
+    border: 1px solid hsla(0, 0%, 21%, 0.349);
+    border-radius: 5px;
+}
+
+#ciytsearch{
+    background-color: hsla(167, 93%, 39%, 0.856);
+    color: white;
+    border: none;
+    width: 140px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-left: 1rem ;
+    cursor: pointer;
+}
+
+#card {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #767b7c, #008cbb);
+    min-width: 310px;
+    border-radius: 5px;
+    box-shadow: 0 8px 20px rgba(19, 39, 61, 0.6);
+}
+
+
+p{
+    color: white;
+    font-weight: bold;
+    font-size: 2.1rem;
+}
